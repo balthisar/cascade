@@ -1,0 +1,23 @@
+<HTML><HEAD>
+	<TITLE>Play-During</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Play-During<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>play-during</I> attribute is similar to the 'cue-before' and 'cue-after' properties, this property specifies a sound to be played as a background while an element's content is spoken. Values have the following meanings:<BR>
+<B>&lt;uri&gt; <BR>
+</B>The sound designated by this &lt;uri&gt; is played as a background while the element's content is spoken. <BR>
+<B>mix</B> <BR>
+When present, this keyword means that the sound inherited from the parent element's 'play-during' property continues to play and the sound designated by the &lt;uri&gt; is mixed with it. If 'mix' is not specified, the element's background sound replaces the parent's. <BR>
+<B>repeat</B> <BR>
+When present, this keyword means that the sound will repeat if it is too short to fill the entire duration of the element. Otherwise, the sound plays once and then stops. This is similar to the 'background-repeat' property. If the sound is too long for the element, it is clipped once the element has been spoken. <BR>
+<B>auto</B> <BR>
+The sound of the parent element continues to play (it is not restarted, which would have been the case if this property had been inherited). <BR>
+<B>none</B> <BR>
+This keyword means that there is silence. The sound of the parent element (if any) is silent during the current element and continues after the current element. 
+</FONT>
+</BODY></HTML>

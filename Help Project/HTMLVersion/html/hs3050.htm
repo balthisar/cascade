@@ -1,0 +1,41 @@
+<HTML><HEAD>
+	<TITLE>Pseudos of Subclasses</TITLE>
+	<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<PARAM NAME="Keyword" VALUE="Classes">
+		<PARAM NAME="Keyword" VALUE=" Classes, Sub-pseudos">
+		<PARAM NAME="Keyword" VALUE=" Overview">
+		<PARAM NAME="Keyword" VALUE=" Overview, Sub-pseudos">
+	</OBJECT>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Pseudo-classes of Subclasses<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"> </FONT><FONT FACE="Arial" COLOR="#800000" SIZE="1">       </FONT><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs3005.htm"><I><B><FONT FACE="Arial" SIZE="1">Cascade </I>Classes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2"><HR><BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	<I>Cascade</I> distinguishes between a </FONT><A HREF="hs3040.htm"><FONT FACE="Times New Roman" SIZE="2">run-of-the-mill Pseudo-class</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> and a Pseudo-class of a subclass in order to better support novice users. Just as any </FONT><A HREF="hs20030.htm"><FONT FACE="Times New Roman" SIZE="2">Element class</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> can have associated Pseudo-classes, </FONT><A HREF="hs20032.htm"><FONT FACE="Times New Roman" SIZE="2">subclasses</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> can have Pseudo-classes as well. The selector takes the form "ELEMENT.subclass:pseudo" (where <I>ELEMENT</I> is a valid HTML Element). For example:<BR>
+<BR>
+	</FONT><FONT FACE="Courier New" SIZE="2">A.framelinks:visited {Color: red}<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	If the above style rule is included with your HTML document, any time the &lt;A.framelinks&gt; tag is used, visited links will be rendered in red. However, because in this example we didn't create a pseudo-class for the &lt;A&gt; Element class, your &lt;A&gt; tags' content will be rendered according to the </FONT><A HREF="hs20040.htm"><FONT FACE="Times New Roman" SIZE="2">user agent</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">'s default stylesheet.<BR>
+<BR>
+	To create new pseudo-class or pseudo-element of a subclass in <I>Cascade</I>, make sure that a subclass is selected in the class list, and execute the <B>Classes/Pseudoclass...</B> command from the </FONT><A HREF="hs4700.htm"><FONT FACE="Times New Roman" SIZE="2">main menu</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">, or select <B>Pseudoclass...</B> in the </FONT><A HREF="hs4250.htm"><FONT FACE="Times New Roman" SIZE="2">class list's contextual menu</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">.<BR>
+<BR>
+	Please the the </FONT><A HREF="hs3040.htm"><B><FONT FACE="Arial" SIZE="2">Pseudo-Classes and Pseudo-Elements</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"></FONT></B><FONT FACE="Times New Roman" SIZE="2"> topic for more information.<BR>
+<BR>
+	To see a description of the applicable pseudo-classes and -elements supported in <I>Cascade</I>, follow any of the following links.<BR>
+<BR>
+</FONT><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25010)}</FONT><B><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25010.htm"><FONT FACE="Arial" SIZE="2">:first-child</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25015)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25015.htm"><B><FONT FACE="Arial" SIZE="2">:link</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25020)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25020.htm"><B><FONT FACE="Arial" SIZE="2">:visited</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25025)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25025.htm"><B><FONT FACE="Arial" SIZE="2">:hover</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25030)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25030.htm"><B><FONT FACE="Arial" SIZE="2">:active</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25035)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25035.htm"><B><FONT FACE="Arial" SIZE="2">:focus</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25040)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25040.htm"><B><FONT FACE="Arial" SIZE="2">:first-line</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25045)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25045.htm"><B><FONT FACE="Arial" SIZE="2">:first-letter</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25050)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25050.htm"><B><FONT FACE="Arial" SIZE="2">:before</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25055)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25055.htm"><B><FONT FACE="Arial" SIZE="2">:after</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2">
+</B>
+</FONT>
+</BODY></HTML>

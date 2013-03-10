@@ -1,0 +1,26 @@
+<HTML><HEAD>
+	<TITLE>Content</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Content<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>content</I> attribute is used with the :before and :after pseudo-elements to generate content in a document. Values have the following meanings:<BR>
+<B>&lt;string&gt; <BR>
+</B>Text content. <BR>
+<B>&lt;uri&gt; <BR>
+</B>The value is a URI that designates an external resource. If a user agent cannot support the resource because of the media types it supports, it must ignore the resource. <B>Note:</B> CSS2 offers no mechanism to change the size of the embedded object, or to provide a textual description, like the "alt" or "longdesc" attributes do for images in HTML. This may change in future levels of CSS. <BR>
+<B>&lt;counter&gt;</B> <BR>
+Counters may be specified with two different functions: 'counter()' or 'counters()'. The former has two forms: 'counter(<I>name</I>)' or 'counter(<I>name</I>, <I>style</I>)'. The generated text is the value of the named counter at this point in the formatting structure; it is formatted in the indicated style ('decimal' by default). The latter function also has two forms: 'counter(name, string)' or 'counter(name, string, style)'. The generated text is the value of all counters with the given name at this point in the formatting structure, separated by the specified string. The counters are rendered in the indicated style ('decimal' by default).<BR>
+<B>open-quote</B> and <B>close-quote <BR>
+</B>These values are replaced by the appropriate string from the </FONT><A HREF="hs10950.htm"><FONT FACE="Times New Roman" SIZE="2">'quotes'</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> property. <BR>
+<B>no-open-quote </B>and <B>no-close-quote</B> <BR>
+Inserts nothing (the empty string), but increments (decrements) the level of nesting for quotes. <BR>
+<B>attr(X)</B> <BR>
+This function returns as a string the value of attribute X for the subject of the selector. The string is not parsed by the CSS processor. If the subject of the selector doesn't have an attribute X, an empty string is returned. The case-sensitivity of attribute names depends on the document language. <B>Note:</B> In CSS2, it is not possible to refer to attribute values for other elements of the selector.<BR>
+
+</FONT>
+</BODY></HTML>

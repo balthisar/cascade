@@ -1,0 +1,70 @@
+; This contents file was created with HelpScribble 5.5.2
+; Registered to: James S. Derry
+
+:BASE CASCADE2.hlp
+:TITLE Balthisar Cascade 2.0 Help
+1 Expanded Table of Contents=Scribble1
+1 About this Help File=Scribble1000
+1 About Balthisar Cascade
+2 About Balthisar Cascade=Scribble2000
+2 What's New=Scribble2050
+2 Known Issues=Scribble2100
+2 What's in Store=Scribble2200
+2 Beta-Testing Philosophy=Scribble2300
+2 Version History=Scribble2500
+1 CSS2 Classes Overview
+2 CSS2 Classes Overview=Scribble3000
+2 Element Classes=Scribble3010
+2 Classes=Scribble3020
+2 Subclasses=Scribble3030
+2 Pseudo-classes and Pseudo-elements=Scribble3040
+2 Pseudos of Subclasses=Scribble3050
+2 Contextual Classes=Scribble3060
+2 ID Classes=Scribble3070
+2 Custom/Expert Classes=Scribble3080
+1 Cascade Overview
+2 Cascade Overview=Scribble4000
+2 Interface Elements=Scribble4100
+2 Class Lists=Scribble4200
+2 Preview Pane=Scribble4300
+2 Attributes Pane=Scribble4400
+2 Shortcut Bar=Scribble4500
+2 Preferences=Scribble4600
+2 The Main Menu=Scribble4700
+2 Documents Tabs=Scribble4800
+2 HTML Color Picker=Scribble4900
+1 Cascade Tips, Trips, and Shortcuts
+2 Cascade Tips, Trips, and Shortcuts=Scribble5000
+2 Whole Numbers and Spin Editors=Scribble5100
+2 Setting Default Measurements=Scribble5200
+2 Cutting, Copying, and Pasting=Scribble5300
+2 Drag-and-Drop=Scribble5400
+2 Document Templates=Scribble5500
+2 default.wwtd=Scribble5550
+2 Variations on Creating New Documents=Scribble5600
+2 Variations on Renaming Classes=Scribble5700
+1 Pactical Use of Balthisar Cascade
+2 Pactical Use of Balthisar Cascade=Scribble6000
+2 Cascade File Types=Scribble6100
+2 Creating a New Document=Scribble6200
+2 Saving a Document=Scribble6300
+2 Opening a Document=Scribble6400
+2 Creating a Default Set of Elements=Scribble6500
+2 Including CSS in HTML=Scribble6600
+1 Contacting Balthisar Software=Scribble7000
+1 CSS Attributes in Detail
+2 CSS Attributes in Detail=Scribble10000
+2 Font Attributes Pane=Scribble10100
+2 Text Attributes Pane=Scribble10200
+2 Alignment Attributes Pane=Scribble10300
+2 Margin Attributes Pane=Scribble10400
+2 Borders Attributes Pane=Scribble10500
+2 Color/Background Attributes Pane=Scribble10600
+2 Rendering Attributes Pane=Scribble10700
+2 Box Dimensions Attributes Pane=Scribble10800
+2 Generated Content Attributes Pane=Scribble10900
+2 Lists Attributes Pane=Scribble11000
+2 Tables Attributes Pane=Scribble11100
+2 Miscellaneous Attributes Pane=Scribble11200
+2 Aural Settings Attributes Pane=Scribble11300
+2 Aural Characteristics Attributes Pane=Scribble11400

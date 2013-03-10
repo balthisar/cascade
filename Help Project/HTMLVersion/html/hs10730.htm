@@ -1,0 +1,29 @@
+<HTML><HEAD>
+	<TITLE>Display</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Display<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>display</I> attribute affects how the element box is ultimately rendered.<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">The values of this property have the following meanings:<BR>
+<B>block</B> <BR>
+This value causes an element to generate a principal block box. <BR>
+<B>inline</B> <BR>
+This value causes an element to generate one or more inline boxes. <BR>
+<B>list-item</B> <BR>
+This value causes an element (e.g., LI in HTML)</FONT><FONT FACE="Times New Roman" SIZE="2"> to generate a principal block box and a list-item inline box.<BR>
+<B>marker</B> <BR>
+This value declares generated content before or after a box to be a marker. This value should only be used with :before and :after pseudo-elements attached to block-level elements. In other cases, this value is interpreted as 'inline'.<BR>
+<B>none</B> <BR>
+This value causes an element to generate <B>no</B> boxes in the formatting structure (i.e., the element has no effect on layout). Descendant elements do not generate any boxes either; this behavior <B>cannot</B> be overridden by setting the 'display' property on the descendants. <BR>
+Please note that a display of 'none' does not create an invisible box; it creates no box at all. CSS includes mechanisms that enable an element to generate boxes in the formatting structure that affect formatting but are not visible themselves.<BR>
+<B>run-in</B> and <B>compact</B> <BR>
+These values create either block or inline boxes, depending on context. Properties apply to run-in and compact boxes based on their final status (inline-level or block-level). For example, the<U> 'white-space' </U>property only applies if the box becomes a block box. <BR>
+<B>table</B>, <B>inline-table</B>, <B>table-row-group</B>, <B>table-column, table-column-group</B>, <B>table-header-group</B>, <B>table-footer-group</B>, <B>table-row</B>, <B>table-cell</B>, and <B>table-caption</B> <BR>
+These values cause an element to behave like a table element.
+</FONT>
+</BODY></HTML>

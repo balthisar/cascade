@@ -1,0 +1,36 @@
+Cascade 2.0 Final
+=================
+
+
+Changes Made:
+o Changed the element list icons (left pane).
+o Fixed emboldening problem with attaching/detaching the element list pane.
+o Reworked the pickable-list editor for better intuitiveness.
+o Fixed the wrong-version number for 2.0b9 in the help file.
+o Various, small help-file corrections.
+o Added new features to help file.
+o Modified some of the attribute value menus for consistency/intuitiveness.
+o Added the ability to import CSS/HTML.
+   o Not supported:
+     o the font property as shorthand.
+     o the border, border-x-width, -color, and -style will all be interpreted and put
+       into the border-x attributes, where x is top, bottom, left, or right. Also, the
+       border proper will be split into the top, bottom, left, and right.
+     o row-span and column-span will not be supported for import. They're not part of
+       the specification, and it's only Cascade's inherintly-bad design that they're
+       still present.
+o Removed the row-span and column-span attributes from the Tables pane, since they were
+  only part of the proposed specification, not the final recommended specification.
+o If you import the "quotes" attribute and its not "inherited" or "none," the value will
+  be set to typographical double-quotes for outside and single-quotes for inside.
+
+Changes to Make:
+o Live Preview of stylesheet.
+o Tip-of-the-Day
+o Make the fonts shown in the panes user-selectable.
+o Preview-window scroll-bar should be user-selectable.
+o Allow static "Preview All" with the option to leave the window where
+  the user last left it, the option to keep the current selector at the top,
+  the option to keep reverting the "Preview All" as is done now.
+o Fix media-type closing brace problem.
+o Shell-Menu-Opening extension.

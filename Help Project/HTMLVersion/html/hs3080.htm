@@ -1,0 +1,54 @@
+<HTML><HEAD>
+	<TITLE>Custom/Expert Classes</TITLE>
+	<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<PARAM NAME="Keyword" VALUE="Classes">
+		<PARAM NAME="Keyword" VALUE=" Classes, Custom/Expert">
+		<PARAM NAME="Keyword" VALUE=" Overview">
+		<PARAM NAME="Keyword" VALUE=" Overview, Custom/Expert">
+	</OBJECT>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Custom/Expert Classes<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"> </FONT><FONT FACE="Arial" COLOR="#800000" SIZE="1">       </FONT><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs3005.htm"><I><B><FONT FACE="Arial" SIZE="1">Cascade </I>Classes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2"><HR><BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	Custom/Expert classes are a <I>Cascade</I> contrivance designed to provide the stylesheet author the ability to create a class using <I>any</I> valid CSS2 </FONT><A HREF="hs20021.htm"><FONT FACE="Times New Roman" SIZE="2">selector</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">. The </FONT><A HREF="hs25000.htm"><FONT FACE="Times New Roman" SIZE="2">"ready made" class types</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> provided by <I>Cascade</I> may not meet all of the requirements an advanced stylesheet may have. For example, CSS2 provides for a mixture of two types of contextual classes, as shown here:<BR>
+<BR>
+	</FONT><FONT FACE="Courier New" SIZE="2">DIV OL &gt; LI P {color: red}<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	The example can only be created as an Expert/Custom class. It combines two types of contextual selectors: <I>descendent selectors</I> (the built-in <I>Cascade</I> contextual selector type), and <I>child selectors</I>. The example gets quite precise as to when the &lt;P&gt; element will be rendered in red. In this case, &lt;P&gt; will use the specified attribute (<I>color</I>) only when it is nested somewhere in a &lt;LI&gt; (list item) tagset, <I>and</I> if that &lt;LI&gt; tag is nested <I>immediately</I> within an &lt;OL&gt; (ordered list) tagset, <I>and</I> if that &lt;OL&gt; tagset is nested somewhere in a &lt;DIV&gt; tagset. So...<BR>
+<BR>
+	</FONT><FONT FACE="Courier New" SIZE="2">&lt;DIV&gt;<BR>
+		&lt;OL&gt;<BR>
+			&lt;TABLE&gt;<BR>
+				&lt;TR&gt;<BR>
+					&lt;TD&gt;<BR>
+						&lt;LI&gt;<BR>
+							&lt;P&gt;Hello, world!<BR>
+	...&lt;/DIV&gt;<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	...does not satisfy the example selector, so "Hello, world!" would be rendered in its default color. The spoiler causing the <I>color</I> attribute not to have an effect is that the &lt;LI&gt; is not an <I>immediate</I> child of an &lt;OL&gt;. However, this HTML...<BR>
+<BR>
+	</FONT><FONT FACE="Courier New" SIZE="2">&lt;DIV&gt;<BR>
+		&lt;OL&gt;<BR>
+			&lt;LI&gt;<BR>
+				&lt;TABLE&gt;<BR>
+					&lt;TR&gt;<BR>
+						&lt;TD&gt;<BR>
+							&lt;P&gt;Hello, world!<BR>
+	...&lt;/DIV&gt;<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	...would render "Hello, world!" in red, because the &lt;LI&gt; is an <I>immediate</I> child of the &lt;OL&gt;. The &lt;P&gt; doesn't have to be an <I>immediate</I> child of the &lt;LI&gt;; it's enough that it's merely a descendent.<BR>
+<BR>
+	Another use of expert selectors is specification of <I>multiple selectors</I> which allow the attributes you set to apply to multiple classes. For example:<BR>
+<BR>
+</FONT><FONT FACE="Courier New" SIZE="2">H1, H2, H3, H4, H5, H6 {color: red; font-family: Helvetica}<BR>
+H6 {font-family: Times}<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	The above setup allows rapid specification of color and font for all &lt;H<I>x</I>&gt; elements. As an added demonstration, the second line above changes the font family for just &lt;H6&gt;, while still keeping the color red from the first line.<BR>
+<BR>
+	As you can see, using Custom/Expert Selectors gives you tremendous power over your stylesheets. To create a Custom/Expert selector, execute the <B>Classes/Expert Selector...</B> command from the </FONT><A HREF="hs4700.htm"><FONT FACE="Times New Roman" SIZE="2">main menu</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">. Also see the </FONT><A HREF="http://www.w"><FONT FACE="Times New Roman" COLOR="#0000FF" SIZE="2">W3C's CSS2 Specification Document</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> for all the information you could ever possibly need about the creation of selectors.
+</FONT>
+</BODY></HTML>

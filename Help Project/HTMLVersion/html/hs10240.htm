@@ -1,0 +1,21 @@
+<HTML><HEAD>
+	<TITLE>Text-Shadow</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Text-Shadow<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>text-shadow</I> property </FONT><FONT FACE="Times New Roman" SIZE="2">describes the shadow which is rendered with element text.<BR>
+	This property accepts a comma-separated list of shadow effects to be applied to the text of the element. The shadow effects are applied in the order specified and may thus overlay each other, but they will never overlay the text itself. Shadow effects do not alter the size of a box, but may extend beyond its boundaries.<BR>
+	Each shadow effect must specify a shadow offset and may optionally specify a blur radius and a shadow color. <BR>
+A shadow offset is specified with two </FONT><U><FONT FACE="Times New Roman" SIZE="2">&lt;length&gt;</FONT></U><FONT FACE="Times New Roman" SIZE="2"> values that indicate the distance from the text. The first length value specifies the horizontal distance to the right of the text. A negative horizontal length value places the shadow to the left of the text. The second length value specifies the vertical distance below the text. A negative vertical length value places the shadow above the text. <BR>
+	A blur radius may optionally be specified after the shadow offset. The blur radius is a length value that indicates the boundaries of the blur effect. The exact algorithm for computing the blur effect is not specified. <BR>
+A color value may optionally be specified before or after the length values of the shadow effect. The color value will be used as the basis for the shadow effect. If no color is specified, the value of the </FONT><A HREF="hs10610.htm"><FONT FACE="Times New Roman" SIZE="2">color</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> p</FONT><FONT FACE="Times New Roman" SIZE="2">roperty will be used instead. <BR>
+	Because of the advanced nature of this attribute, <I>Cascade</I> implements the attribute as a user-typed value. An example of a proper <I>text-shadow</I> attribute value is:<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="3">     </FONT><FONT FACE="Courier New" SIZE="2">3px 3px red, yellow -3px 3px 2px, 3px -3px<BR>
+
+</FONT>
+</BODY></HTML>

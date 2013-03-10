@@ -1,0 +1,26 @@
+<HTML><HEAD>
+	<TITLE>Caption-Side</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Caption-Side<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>caption-side</I> attribute specifies the position of the caption box with respect to the table box. Values have the following meanings:<BR>
+<B>top</B> <BR>
+Positions the caption box above the table box. <BR>
+<B>bottom</B> <BR>
+Positions the caption box below the table box. <BR>
+<B>left</B> <BR>
+Positions the caption box to the left of the table box. <BR>
+<B>right</B> <BR>
+Positions the caption box to the right of the table box. <BR>
+<BR>
+Captions above or below a 'table' element are formatted very much as if they were a block element before or after the table, except that (1) they inherit inheritable properties from the table, and (2) they are not considered to be a block box for the purposes of any 'compact' or 'run-in' element that may precede the table. <BR>
+A caption that is above or below a table box also behaves like a block box for width calculations; the width is computed with respect to the width of the table box's containing block. <BR>
+For a caption that is on the left or right side of a table box, on the other hand, a value other than 'auto' for 'width' sets the width explicitly, but 'auto' tells the user agent to chose a "reasonable width". This may vary between "the narrowest possible box" to "a single line", so we recommend that users do not specify 'auto' for left and right caption widths. <BR>
+To align caption content horizontally within the caption box, use the 'text-align' property. For vertical alignment of a left or right caption box with respect to the table box, use the 'vertical-align' property. The only meaningful values in this case are 'top', 'middle', and 'bottom'. All other values are treated the same as 'top'. 
+</FONT>
+</BODY></HTML>

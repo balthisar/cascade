@@ -1,0 +1,44 @@
+<HTML><HEAD>
+	<TITLE>Pseudo-classes and Pseudo-elements</TITLE>
+	<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<PARAM NAME="Keyword" VALUE="Classes">
+		<PARAM NAME="Keyword" VALUE=" Classes, Psuedos">
+		<PARAM NAME="Keyword" VALUE="Overview">
+		<PARAM NAME="Keyword" VALUE=" Overview, Pseudos">
+	</OBJECT>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Pseudo-Classes and Pseudo-Elements<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"> </FONT><FONT FACE="Arial" COLOR="#800000" SIZE="1">       </FONT><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs3005.htm"><I><B><FONT FACE="Arial" SIZE="1">Cascade </I>Classes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2"><HR><BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	Pseudo-classes and pseudo-elements permit the creation of classes that apply to classes, subclasses, and element classes in somewhat dynamic situations. For example, in your own experience in using web browsers, your &lt;A&gt; elements usually display in a different color, depending upon whether you have visited the link or not. This is an example of a dynamic situation; the same &lt;A&gt; element class acts as if it has a different "Color"attribute value, depending on whether or not the link has been visited. This is accomplished using Pseudo-classes. For example...<BR>
+<BR>
+	<I>the stylesheet has</I>:<BR>
+		</FONT><FONT FACE="Courier New" SIZE="2">A:visited {color: red}<BR>
+		A:link {color: blue}<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	<I>and the HTML has</I>:<BR>
+		</FONT><FONT FACE="Courier New" SIZE="2">&lt;A HREF="somewhere"&gt;Link to Somewhere&lt;/A&gt;<BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	... then depending on whether the link has been visited or not, the </FONT><A HREF="hs20040.htm"><FONT FACE="Times New Roman" SIZE="2">user agent</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2"> will dynamically select which pseudo-class to apply to the content of the &lt;A&gt; tagset.<BR>
+	As you should have noticed, the selector for a pseudo-class or pseudo-element takes the form of "ELEMENT:pseudo" (where <I>ELEMENT</I> is an HTML element).<BR>
+	To create new pseudo-class or pseudo-element in <I>Cascade</I>, make sure that an Element class is selected in the class list, and execute the <B>Classes/Pseudoclass...</B> command from the </FONT><A HREF="hs4700.htm"><FONT FACE="Times New Roman" SIZE="2">main menu</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">, or select <B>Pseudoclass...</B> in the </FONT><A HREF="hs4250.htm"><FONT FACE="Times New Roman" SIZE="2">class list's contextual menu</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">.<BR>
+<BR>
+	To see a description of the applicable pseudo-classes and -elements supported in <I>Cascade</I>, follow any of the following links.<BR>
+<BR>
+</FONT><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25010)}</FONT><B><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25010.htm"><FONT FACE="Arial" SIZE="2">:first-child</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25015)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25015.htm"><B><FONT FACE="Arial" SIZE="2">:link</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25020)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25020.htm"><B><FONT FACE="Arial" SIZE="2">:visited</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25025)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25025.htm"><B><FONT FACE="Arial" SIZE="2">:hover</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25030)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25030.htm"><B><FONT FACE="Arial" SIZE="2">:active</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25035)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25035.htm"><B><FONT FACE="Arial" SIZE="2">:focus</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25040)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25040.htm"><B><FONT FACE="Arial" SIZE="2">:first-line</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25045)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25045.htm"><B><FONT FACE="Arial" SIZE="2">:first-letter</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25050)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25050.htm"><B><FONT FACE="Arial" SIZE="2">:before</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"><BR>
+</FONT></B><FONT FACE="Arial" SIZE="2">	</FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2">{button ,JumpContext("",25055)}</FONT><FONT FACE="Arial" SIZE="2"> </FONT><A HREF="hs25055.htm"><B><FONT FACE="Arial" SIZE="2">:after</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2">
+</B>
+</FONT>
+</BODY></HTML>

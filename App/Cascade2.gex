@@ -1,0 +1,8 @@
+[General]
+Name=Cascade2
+Project=1
+
+[Classes]
+Count=2
+Class0="TwPersonalize","TForm","UPersonalize","0","E:\Development\Cascade 2 (App)(4.0)\UPersonalize.pas"
+Class1="TMainModule","TDataModule","UMainModule","0","E:\Development\Cascade 2 (App)(4.0)\UMainModule.pas"

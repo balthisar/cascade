@@ -1,0 +1,43 @@
+<HTML><HEAD>
+	<TITLE>Table-Layout</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Table-Layout<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>table-layout</I> attribute controls the algorithm used to lay out the table cells, rows, and columns. Values have the following meaning:<BR>
+<BR>
+<B>fixed</B> <BR>
+Use the fixed table layout algorithm <BR>
+<B>auto</B> <BR>
+Use any automatic table layout algorithm <BR>
+<BR>
+The two algorithms are described below. <BR>
+<BR>
+<B>Fixed table layout<BR>
+</B>With this (fast) algorithm, the horizontal layout of the table does not depend on the contents of the cells; it only depends on the table's width, the width of the columns, and borders or cell spacing. <BR>
+The table's width may be specified explicitly with the 'width' property. A value of 'auto' (for both 'display: table' and 'display: inline-table') means use the automatic table layout algorithm. <BR>
+In the fixed table layout algorithm, the width of each column is determined as follows:
+<LI>A column element with a value other than 'auto' for the 'width' property sets the width for that column. 
+<LI>Otherwise, a cell in the first row with a value other than 'auto' for the 'width' property sets the width for that column. If the cell spans more than one column, the width is divided over the columns. 
+<LI>Any remaining columns equally divide the remaining horizontal table space (minus borders or cell spacing). <BR>
+The width of the table is then the greater of the value of the 'width' property for the table element and the sum of the column widths (plus cell spacing or borders). If the table is wider than the columns, the extra space should be distributed over the columns. <BR>
+In this manner, the user agent can begin to lay out the table once the entire first row has been received. Cells in subsequent rows do not affect column widths. Any cell that has content that overflows uses the 'overflow' property to determine whether to clip the overflow content.<BR>
+<BR>
+<B>Automatic table layout<BR>
+</B>In this algorithm (which generally requires no more than two passes), the table's width is given by the width of its columns (and intervening <U>borders</U>). This algorithm reflects the behavior of several popular HTML user agents at the writing of this specification. UAs are not required to implement this algorithm to determine the table layout in the case that <U>'table-layout'</U> is 'auto'; they can use any other algorithm. <BR>
+This algorithm may be inefficient since it requires the user agent to have access to all the content in the table before determining the final layout and may demand more than one pass. <BR>
+Column widths are determined as follows:
+<LI>Calculate the minimum content width (MCW) of each cell: the formatted content may span any number of lines but may not overflow the cell box. If the specified <U>'width'</U> (W) of the cell is greater than MCW, W is the minimum cell width. A value of 'auto' means that MCW is the minimum cell width. Also, calculate the "maximum" cell width of each cell: formatting then content without breaking lines other than where explicit line breaks occur. 
+<LI>For each column, determine a maximum and minimum column width from the cells that span only that column. The minimum is that required by the cell with the largest minimum cell width (or the column 'width', whichever is larger). The maximum is that required by the cell with the largest maximum cell width (or the column 'width', whichever is larger). 
+<LI>For each cell that spans more than one column, increase the minimum widths of the columns it spans so that together, they are at least as wide as the cell. Do the same for the maximum widths. If possible, widen all spanned columns by approximately the same amount. <BR>
+This gives a maximum and minimum width for each column. Column widths influence the final table width as follows:
+<LI>If the 'table' or 'inline-table' element's 'width' property has a specified value (W) other than 'auto', the property's computed value is the greater of W and the minimum width required by all the columns plus cell spacing or borders (MIN). If W is greater than MIN, the extra width should be distributed over the columns. 
+<LI>If the 'table' or 'inline-table' element has 'width: auto', the computed table width is the greater of the table's containing block width and MIN. However, if the maximum width required by the columns plus cell spacing or borders (MAX) is less than that of the containing block, use MAX. <BR>
+A percentage value for a column width is relative to the table width. If the table has 'width: auto', a percentage represents a constraint on the column's width, which a UA should try to satisfy. (Obviously, this is not always possible: if the column's width is '110%', the constraint cannot be satisfied.)<BR>
+<I><B>Note:</B> In this algorithm, rows (and row groups) and columns (and column groups) both constrain and are constrained by the dimensions of the cells they contain. Setting the width of a column may indirectly influence the height of a row, and vice versa.</I> 
+</FONT>
+</BODY></HTML>

@@ -1,0 +1,85 @@
+<HTML><HEAD>
+	<TITLE>Version History</TITLE>
+	<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<PARAM NAME="Keyword" VALUE="About">
+		<PARAM NAME="Keyword" VALUE=" About, Version History">
+		<PARAM NAME="Keyword" VALUE=" Version History">
+	</OBJECT>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Version History<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="2">          </FONT><A HREF="hs2001.htm"><B><FONT FACE="Arial" SIZE="1">See Also</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></B>         </FONT><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2"><HR><BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">What follows is the <I>Balthisar Cascade</I> version history.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" SIZE="2">2.0b9 Released 14-Feb-98 (Current Version)
+<LI></B>Added support for @media rules within the existing document architecture.
+<LI>Added a preference option to ignore duplicate selector creation.
+<LI>Employed tree-view icons for easily distinguishing between CSS classes and @media descriptors.<BR>
+<BR>
+<B>2.0b8 Released 20-Jan-99
+<LI></B>Made all text items static, i.e., bypassed Windows' intrusion of its own fonts. Not neccessarily the best method of stabilizing <I>Cascade</I>'s display, but the application now looks proper regardless of the system fonts currently in use.
+<LI>Note: this version was never officially released; it was distributed only to persons who raised the messy display issue.<BR>
+<BR>
+<B>2.0b7 Released 08-Jan-98
+<LI></B>Rewrote a private interface to GetOpenFileName and GetSaveFileName OS calls to bypass Microsoft's inept implementation.
+<LI>Several internal code changes not visibly apparent to the end user.<BR>
+<BR>
+<B>2.0b6 Released 03-Dec-98
+<LI></B>Repaired (we hope) a file-saving bug which affected random systems.
+<LI>Reimplemented the Splash-Screen scheme. This is an internal change.
+<LI>Reimplemented the Cascade component interface. This will only apply to those who have gotten the alpha-releases of the Cascade component for Delphi 4.
+<LI>Added a hint to the documents tabs which shows the complete path of the active document when the mouse hovers over it.
+<LI>Corrected a bug in the "Apply to HTML" function which severely affected the layout of the original HTML file. Now, the original layout is preserved almost perfectly.
+<LI>Added a <I>default.wwtd</I> in the setup program.
+<LI>Added a preferences item which allows the user to choose between using single-quotes and double-quotes when generating CSS code.
+<LI>HTML Elements (when creating a new Element Class) are now chosen using an editable pop-up list instead of demanding that the user specify a valid HTML element.
+<LI>Pseudoclass or pseudoelement names are now chosen using an editable pop-up list, instead of a static pop-up list.
+<LI>Added the ability to open files by dropping them onto the main window.
+<LI>Shell file opening is now performed via DDE.
+<LI>The <B>"pdsss" </B>CLI parameter will start <I>Cascade</I> without displaying the splash screen.
+<LI>The <B>"miaok" </B>CLI parameter will start more than one instance of <I>Cascade</I>.
+<LI>The uninstaller now properly removes all of its registry entries, except for preferences items, just in case the user decides to reinstall <I>Cascade</I> at a later time.<BR>
+<BR>
+<B>2.0b5 Released 16-Oct-98 (not officially released, but it may be floating around)
+<LI></B>Version 2.0b4 added support for .HTM files. Unfortunately, this caused the "Tools/Apply Stylesheets to HTML" command to malfunction. This has been corrected.
+<LI>Stopped changing the registry key for every new beta release. This caused all of the preferences, personalization, and custom colors to be reset every time the user upgraded. The current key will now stay at "v2.0" for future compatability (yes, this means you have to reset all of your preferences with this release again).<BR>
+<BR>
+<B>2.0b4 Released 05-Oct-98
+<LI></B>"Finished" the help file. Feedback as to its usefulness is appreciated.
+<LI>Eliminated the splitter which allows the main window and its panes to be resized. This feature was not favorably received, and it was terribly crude.
+<LI>The Shortcut Bar has been changed from a static item to a dockable tool bar, which can be dragged from the main window to any part of the screen.
+<LI>The Class List and Code Preview Pane are now dockable (because, as mentioned above, the splitter was removed). These can be detached from the main window, and moved about the screen independantly.
+<LI>A "View" menu was added. It allows alternate methods of detaching the Shortcut Bar, the Class List, and the Code Preview Pane.
+<LI>The "Show Shortcut Bar" option was removed from the preferences, since this setting is now dynamic based on how the user treats the dockable Shortcut Bar.
+<LI></FONT><FONT FACE="Arial" SIZE="2">Changed the root registry key from HKEY_LOCAL_MACHINE to HKEY_CURRENT_USER for WindowsNT compatability (WinNT doesn't allow write access to HKEY_LOCAL_MACHINE unless the user is logged on as an administrator).
+<LI>Moved the Documents Tabs from the top of the window to the bottom of the window, where it more suitably fits. Also modified the status area to allow the main window to shrink enough when the Class List and Code Preview pane are detached.
+<LI>Scrapped my own installation/uninstallation setup in favor of InstallShield again. The original <I>WebWarrior Cascade</I> is an InstallShield setup project, despite all of InstallShield's registry-related bugs. InstallShield 2.02 now has those bugs fixed, hence my flakey install program is no longer needed.
+<LI>Added support for the non-standard, archaic .HTM file extension where appropriate.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" SIZE="2">2.0b3 Released 13-Sep-98
+<LI></B>Fixed a bug I introduced in replacing a different bug -- 2.0b2 correctly used the pound/hash mark (#) instead of the dollar sign ($) to display hexadecimal colors, except that it caused "#xxxxxx is an invalid integer" errors when switching panes/classes. *This time* it's fixed!
+<LI>Updated this help file a bit.<BR>
+<BR>
+<B>2.0b2 Released 12-Sep-98
+<LI></B>Added a tiny bit to the help file, including a WinHelp32 Table of Contents
+<LI>Created a new install/uninstall application, including registry items to correctly associate icons and applications.
+<LI>An event-processing related error was corrected. The effect of the bug resulted in strange reversions of data in the attributes' panes when pages were switched.
+<LI>The DEL accellerator key (to clear a class in the class list) was changed to Ctrl-DEL, because the previous implementation of this caused the DEL key not to work properly in text-editing fields.
+<LI>An "Export" icon has been added to the shortcut bar. Unlike the other shortcuts, it drops down a menu which allows you different exporting options.
+<LI>A default filename will now be provided in the <I>Save As...</I> dialogue when you export your <I>Cascade</I> documents. Previously, no default name was provided.
+<LI>Hexadecimal colors now use the web-content # prefix instead of the programmers' $ prefix.
+<LI>For some reason, I had introduced a bug in 2.0b1 that caused Pseudo-classes not to be created with names at all. This has been fixed, and you can create all of the Pseudo-classes you wish.
+<LI>Updated the directory picker (in the preferences) to the modern style everyone seems to like.
+<LI>Changed all internet links to reflect my new internet domain.<BR>
+<BR>
+<B>2.0b1 Released 15-Aug-98
+<LI></B>Initial release of the 2.0 series software.<BR>
+<BR>
+<B>2.0a1 Released 01-Aug-98
+<LI></B>Initial, unofficial release.
+</FONT>
+</BODY></HTML>

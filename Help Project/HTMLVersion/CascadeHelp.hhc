@@ -1,0 +1,281 @@
+<HTML><HEAD>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT TYPE="text/site properties">
+	<PARAM NAME="ImageType" VALUE="Folder">
+</OBJECT>
+<UL>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="Expanded Table of Contents">
+		<PARAM NAME="Local" VALUE="html/hs1.htm">
+	</OBJECT>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="About this Help File">
+		<PARAM NAME="Local" VALUE="html/hs1000.htm">
+	</OBJECT>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="About Balthisar Cascade">
+	</OBJECT>
+	<UL>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="About Balthisar Cascade">
+			<PARAM NAME="Local" VALUE="html/hs2000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="What's New">
+			<PARAM NAME="Local" VALUE="html/hs2050.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Known Issues">
+			<PARAM NAME="Local" VALUE="html/hs2100.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="What's in Store">
+			<PARAM NAME="Local" VALUE="html/hs2200.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Beta-Testing Philosophy">
+			<PARAM NAME="Local" VALUE="html/hs2300.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Delphi Developers">
+			<PARAM NAME="Local" VALUE="html/hs2400.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Version History">
+			<PARAM NAME="Local" VALUE="html/hs2500.htm">
+		</OBJECT>
+	</UL>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="CSS2 Classes Overview">
+	</OBJECT>
+	<UL>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="CSS2 Classes Overview">
+			<PARAM NAME="Local" VALUE="html/hs3000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Element Classes">
+			<PARAM NAME="Local" VALUE="html/hs3010.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Classes">
+			<PARAM NAME="Local" VALUE="html/hs3020.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Subclasses">
+			<PARAM NAME="Local" VALUE="html/hs3030.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Pseudo-classes and Pseudo-elements">
+			<PARAM NAME="Local" VALUE="html/hs3040.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Pseudos of Subclasses">
+			<PARAM NAME="Local" VALUE="html/hs3050.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Contextual Classes">
+			<PARAM NAME="Local" VALUE="html/hs3060.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="ID Classes">
+			<PARAM NAME="Local" VALUE="html/hs3070.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Custom/Expert Classes">
+			<PARAM NAME="Local" VALUE="html/hs3080.htm">
+		</OBJECT>
+	</UL>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="Cascade Overview">
+	</OBJECT>
+	<UL>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Cascade Overview">
+			<PARAM NAME="Local" VALUE="html/hs4000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Interface Elements">
+			<PARAM NAME="Local" VALUE="html/hs4100.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Class Lists">
+			<PARAM NAME="Local" VALUE="html/hs4200.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Preview Pane">
+			<PARAM NAME="Local" VALUE="html/hs4300.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs4400.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Shortcut Bar">
+			<PARAM NAME="Local" VALUE="html/hs4500.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Preferences">
+			<PARAM NAME="Local" VALUE="html/hs4600.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="The Main Menu">
+			<PARAM NAME="Local" VALUE="html/hs4700.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Documents Tabs">
+			<PARAM NAME="Local" VALUE="html/hs4800.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="HTML Color Picker">
+			<PARAM NAME="Local" VALUE="html/hs4900.htm">
+		</OBJECT>
+	</UL>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="Cascade Tips, Trips, and Shortcuts">
+	</OBJECT>
+	<UL>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Cascade Tips, Trips, and Shortcuts">
+			<PARAM NAME="Local" VALUE="html/hs5000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Whole Numbers and Spin Editors">
+			<PARAM NAME="Local" VALUE="html/hs5100.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Setting Default Measurements">
+			<PARAM NAME="Local" VALUE="html/hs5200.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Cutting, Copying, and Pasting">
+			<PARAM NAME="Local" VALUE="html/hs5300.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Drag-and-Drop">
+			<PARAM NAME="Local" VALUE="html/hs5400.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Document Templates">
+			<PARAM NAME="Local" VALUE="html/hs5500.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="default.wwtd">
+			<PARAM NAME="Local" VALUE="html/hs5550.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Variations on Creating New Documents">
+			<PARAM NAME="Local" VALUE="html/hs5600.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Variations on Renaming Classes">
+			<PARAM NAME="Local" VALUE="html/hs5700.htm">
+		</OBJECT>
+	</UL>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="Pactical Use of Balthisar Cascade">
+	</OBJECT>
+	<UL>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Pactical Use of Balthisar Cascade">
+			<PARAM NAME="Local" VALUE="html/hs6000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Cascade File Types">
+			<PARAM NAME="Local" VALUE="html/hs6100.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Creating a New Document">
+			<PARAM NAME="Local" VALUE="html/hs6200.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Saving a Document">
+			<PARAM NAME="Local" VALUE="html/hs6300.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Opening a Document">
+			<PARAM NAME="Local" VALUE="html/hs6400.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Creating a Default Set of Elements">
+			<PARAM NAME="Local" VALUE="html/hs6500.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Including CSS in HTML">
+			<PARAM NAME="Local" VALUE="html/hs6600.htm">
+		</OBJECT>
+	</UL>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="Contacting Balthisar Software">
+		<PARAM NAME="Local" VALUE="html/hs7000.htm">
+	</OBJECT>
+	<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Name" VALUE="CSS Attributes in Detail">
+	</OBJECT>
+	<UL>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="CSS Attributes in Detail">
+			<PARAM NAME="Local" VALUE="html/hs10000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Font Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10100.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Text Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10200.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Alignment Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10300.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Margin Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10400.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Borders Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10500.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Color/Background Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10600.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Rendering Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10700.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Box Dimensions Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10800.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Generated Content Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs10900.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Lists Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs11000.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Tables Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs11100.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Miscellaneous Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs11200.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Aural Settings Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs11300.htm">
+		</OBJECT>
+		<LI><OBJECT TYPE="text/sitemap">
+			<PARAM NAME="Name" VALUE="Aural Characteristics Attributes Pane">
+			<PARAM NAME="Local" VALUE="html/hs11400.htm">
+		</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

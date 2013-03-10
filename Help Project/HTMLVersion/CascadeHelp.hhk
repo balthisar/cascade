@@ -1,0 +1,210 @@
+<HTML><HEAD>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT TYPE="text/site properties">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+	<PARAM NAME="Keyword" VALUE="About">
+	<PARAM NAME="Name" VALUE="About Balthisar Cascade">
+	<PARAM NAME="Local" VALUE="html/hs2000.htm">
+	<PARAM NAME="Name" VALUE="About this Help File">
+	<PARAM NAME="Local" VALUE="html/hs1000.htm">
+	<PARAM NAME="Name" VALUE="Beta-Testing Philosophy">
+	<PARAM NAME="Local" VALUE="html/hs2300.htm">
+	<PARAM NAME="Name" VALUE="Delphi Developers">
+	<PARAM NAME="Local" VALUE="html/hs2400.htm">
+	<PARAM NAME="Name" VALUE="Known Issues">
+	<PARAM NAME="Local" VALUE="html/hs2100.htm">
+	<PARAM NAME="Name" VALUE="Version History">
+	<PARAM NAME="Local" VALUE="html/hs2500.htm">
+	<PARAM NAME="Name" VALUE="What's in Store">
+	<PARAM NAME="Local" VALUE="html/hs2200.htm">
+</OBJECT>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Beta-Testing">
+		<PARAM NAME="Local" VALUE="html/hs2300.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Cascade">
+		<PARAM NAME="Local" VALUE="html/hs2000.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Delphi Component">
+		<PARAM NAME="Local" VALUE="html/hs2400.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Help File">
+		<PARAM NAME="Name" VALUE="About this Help File">
+		<PARAM NAME="Local" VALUE="html/hs1000.htm">
+		<PARAM NAME="Name" VALUE="Speak-Numeral">
+		<PARAM NAME="Local" VALUE="html/hs11455.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Known Issues">
+		<PARAM NAME="Local" VALUE="html/hs2100.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Version History">
+		<PARAM NAME="Local" VALUE="html/hs2500.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="What's in Store">
+		<PARAM NAME="Local" VALUE="html/hs2200.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+	<PARAM NAME="Keyword" VALUE="Classes">
+	<PARAM NAME="Name" VALUE="Classes">
+	<PARAM NAME="Local" VALUE="html/hs3020.htm">
+	<PARAM NAME="Name" VALUE="Contextual Classes">
+	<PARAM NAME="Local" VALUE="html/hs3060.htm">
+	<PARAM NAME="Name" VALUE="CSS2 Classes Overview as implemented in Cascade">
+	<PARAM NAME="Local" VALUE="html/hs3000.htm">
+	<PARAM NAME="Name" VALUE="Custom/Expert Classes">
+	<PARAM NAME="Local" VALUE="html/hs3080.htm">
+	<PARAM NAME="Name" VALUE="Element Classes">
+	<PARAM NAME="Local" VALUE="html/hs3010.htm">
+	<PARAM NAME="Name" VALUE="ID Classes">
+	<PARAM NAME="Local" VALUE="html/hs3070.htm">
+	<PARAM NAME="Name" VALUE="Pseudo-classes and Pseudo-elements">
+	<PARAM NAME="Local" VALUE="html/hs3040.htm">
+	<PARAM NAME="Name" VALUE="Pseudos of Subclasses">
+	<PARAM NAME="Local" VALUE="html/hs3050.htm">
+	<PARAM NAME="Name" VALUE="Subclasses">
+	<PARAM NAME="Local" VALUE="html/hs3030.htm">
+</OBJECT>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Classes">
+		<PARAM NAME="Local" VALUE="html/hs3020.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Contextuals">
+		<PARAM NAME="Local" VALUE="html/hs3060.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Custom/Expert">
+		<PARAM NAME="Local" VALUE="html/hs3080.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Element Classes">
+		<PARAM NAME="Local" VALUE="html/hs3010.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="IDs">
+		<PARAM NAME="Local" VALUE="html/hs3070.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Overview">
+		<PARAM NAME="Local" VALUE="html/hs3000.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Psuedos">
+		<PARAM NAME="Local" VALUE="html/hs3040.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Subclasses">
+		<PARAM NAME="Local" VALUE="html/hs3030.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Sub-pseudos">
+		<PARAM NAME="Local" VALUE="html/hs3050.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+	<PARAM NAME="Keyword" VALUE="Delphi">
+	<PARAM NAME="Local" VALUE="html/hs2400.htm">
+</OBJECT>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Components For">
+		<PARAM NAME="Local" VALUE="html/hs2400.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+	<PARAM NAME="Keyword" VALUE="Overview">
+	<PARAM NAME="Name" VALUE="Classes">
+	<PARAM NAME="Local" VALUE="html/hs3020.htm">
+	<PARAM NAME="Name" VALUE="Contextual Classes">
+	<PARAM NAME="Local" VALUE="html/hs3060.htm">
+	<PARAM NAME="Name" VALUE="CSS2 Classes Overview as implemented in Cascade">
+	<PARAM NAME="Local" VALUE="html/hs3000.htm">
+	<PARAM NAME="Name" VALUE="Custom/Expert Classes">
+	<PARAM NAME="Local" VALUE="html/hs3080.htm">
+	<PARAM NAME="Name" VALUE="Element Classes">
+	<PARAM NAME="Local" VALUE="html/hs3010.htm">
+	<PARAM NAME="Name" VALUE="ID Classes">
+	<PARAM NAME="Local" VALUE="html/hs3070.htm">
+	<PARAM NAME="Name" VALUE="Pseudo-classes and Pseudo-elements">
+	<PARAM NAME="Local" VALUE="html/hs3040.htm">
+	<PARAM NAME="Name" VALUE="Pseudos of Subclasses">
+	<PARAM NAME="Local" VALUE="html/hs3050.htm">
+	<PARAM NAME="Name" VALUE="Subclasses">
+	<PARAM NAME="Local" VALUE="html/hs3030.htm">
+</OBJECT>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Classes">
+		<PARAM NAME="Local" VALUE="html/hs3020.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Classes Overview">
+		<PARAM NAME="Local" VALUE="html/hs3000.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Contextuals">
+		<PARAM NAME="Local" VALUE="html/hs3060.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Custom/Expert">
+		<PARAM NAME="Local" VALUE="html/hs3080.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Element Classes">
+		<PARAM NAME="Local" VALUE="html/hs3010.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="IDs">
+		<PARAM NAME="Local" VALUE="html/hs3070.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Pseudos">
+		<PARAM NAME="Local" VALUE="html/hs3040.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Subclasses">
+		<PARAM NAME="Local" VALUE="html/hs3030.htm">
+	</OBJECT>
+</UL>
+<UL>#9<LI><OBJECT TYPE="text/sitemap">
+		<PARAM NAME="Keyword" VALUE="Sub-pseudos">
+		<PARAM NAME="Local" VALUE="html/hs3050.htm">
+	</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+	<PARAM NAME="Keyword" VALUE="Version History">
+	<PARAM NAME="Local" VALUE="html/hs2500.htm">
+</OBJECT>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,38 @@
+<HTML><HEAD>
+	<TITLE>Azimuth</TITLE>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Azimuth<BR>
+<BR>
+</FONT><A HREF="hs1.htm"><FONT FACE="Arial" SIZE="1">Table of Contents</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">          </FONT></B><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1">        </FONT><A HREF="hs10005.htm"><B><FONT FACE="Arial" SIZE="1">Attributes Panes</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"><B><HR><BR>
+<BR>
+</FONT></B><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">The <I>azimuth</I> attribute specifies the left-to-right direction from whence sound originiates.<BR>
+Values have the following meanings:<BR>
+<B>&lt;angle&gt; <BR>
+</B>Position is described in terms of an angle within the range '-360deg' to '360deg'. The value '0deg' means directly ahead in the center of the sound stage. '90deg' is to the right, '180deg' behind, and '270deg' (or, equivalently and more conveniently, '-90deg') to the left. <BR>
+<B>left-side</B> <BR>
+Same as '270deg'. With 'behind', '270deg'. <BR>
+<B>far-left</B> <BR>
+Same as '300deg'. With 'behind', '240deg'. <BR>
+<B>left</B> <BR>
+Same as '320deg'. With 'behind', '220deg'. <BR>
+<B>center-left</B> <BR>
+Same as '340deg'. With 'behind', '200deg'. <BR>
+<B>center</B> <BR>
+Same as '0deg'. With 'behind', '180deg'. <BR>
+<B>center-right</B> <BR>
+Same as '20deg'. With 'behind', '160deg'. <BR>
+<B>right</B> <BR>
+Same as '40deg'. With 'behind', '140deg'. <BR>
+<B>far-right</B> <BR>
+Same as '60deg'. With 'behind', '120deg'. <BR>
+<B>right-side</B> <BR>
+Same as '90deg'. With 'behind', '90deg'. <BR>
+<B>leftwards</B> <BR>
+Moves the sound to the left, relative to the current angle. More precisely, subtracts 20 degrees. Arithmetic is carried out modulo 360 degrees. Note that 'leftwards' is more accurately described as "turned counter-clockwise," since it <I>always</I> subtracts 20 degrees, even if the inherited azimuth is already behind the listener (in which case the sound actually appears to move to the right). <BR>
+<B>rightwards</B> <BR>
+Moves the sound to the right, relative to the current angle. More precisely, adds 20 degrees. See 'leftwards' for arithmetic. 
+</FONT>
+</BODY></HTML>

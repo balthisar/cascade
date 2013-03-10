@@ -1,0 +1,57 @@
+<HTML><HEAD>
+	<TITLE>Known Issues</TITLE>
+	<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<PARAM NAME="Keyword" VALUE="About">
+		<PARAM NAME="Keyword" VALUE=" About, Known Issues">
+	</OBJECT>
+	<META NAME="AUTHOR" CONTENT="Copyright © 1998 by James S. Derry, All Rights Reserved">
+	<META NAME="GENERATOR" CONTENT="HelpScribble 5.5.2">
+</HEAD><BODY>
+<FONT FACE="Arial" COLOR="#008000" SIZE="5"><B>
+Known Issues<BR>
+</FONT></B><FONT FACE="Arial" COLOR="#008000" SIZE="1">(Really more of a <A HREF="hs20000.htm">FAQ</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></FONT><FONT FACE="Arial" COLOR="#008000" SIZE="1"> at this stage)<BR>
+<BR>
+<A HREF="hs1.htm"><B>Table of Contents</FONT></B></A><FONT FACE="Arial" COLOR="#800000" SIZE="2">          </FONT><A HREF="hs2001.htm"><B><FONT FACE="Arial" SIZE="1">See Also</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></B>         </FONT><A HREF="hs100.htm"><FONT FACE="Arial" SIZE="1">Balthisar Software Site</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="1"></FONT><FONT FACE="Arial" COLOR="#800000" SIZE="2"><HR><BR>
+<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	This section covers known <I>Cascade</I> issues.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">1. Preview All Classes and Preview Tagged Classes modes revert to single class preview.<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	This is not a bug; it's a feature. Really. This makes it simpler for the stylesheet author to keep his focus on the class which he is editing. There are currently no plans to prevent the preview pane from exhibiting this behavior.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">2. There should be a file picker for the background image file.<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	That would be a better idea for an integrated HTML development environment. Because <I>Balthisar Cascade</I> is intended for developing style sheets to be placed on a server computer, a local file picker would not be convenient, since the local file path will not be the same as the remote file path. What use is a local Windows' file path on a Unix or Macintosh server (which is what 80% of the internet uses)?<BR>
+	Instead, you should simply type the name of the image, including an absolute or relative path to that image, from the perspective of the stylesheet as it will reside on the server.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">3. The font drop-down lists allow me to type fonts which don't exist.<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	Just because a font doesn't exist on your computer does not mean it does not exist on someone else's computer. The contrary is also true, which is the whole reason CSS2 provides the ability to specify alternate fonts.<BR>
+	I've seen CSS2 editors which <I>force</I> the user to pick a font which exists on the local system, which does no good for specifying fonts for other systems, including systems utilizing other operating systems. You should take it to heart to try to accomodate the fonts on alternate operating systems as your alternate font. For example, the following two rules are fairly standard on the internet:<BR>
+	</FONT><FONT FACE="Courier New" SIZE="2">font-family: "Times", "Times New Roman", serif;<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	</FONT><FONT FACE="Courier New" SIZE="2">font-family: "Helvetica", "Arial", sans-serif;<BR>
+</FONT><FONT FACE="Times New Roman" SIZE="2">	The primary font-family names shown are fonts typically found on Macintosh computers. While the order is not important, accomodating other operating systems should be considered a primary design principle. This would not be possible if the CSS2 editor forced you to choose a font which resides on the local system.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">4. The font drop-down lists act strangly when I have them set to display in their own font.<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	Again, that's a feature, not a bug. The "strangeness" referred to comes in two flavors:
+<LI>As you type the name of a font, and what you have typed "so far" is a valid system font, the font name will change to that typeface, as you type.
+<LI>The font in the font-picker temporarily reverts to your standard window font (usually MS Sans Serif) whenever you drop the list down. This enables you to read the name in the text-box (in case it's a symbol font or a fancy script which is illegible at a small size), as well as the drop-down list itself. As soon as a choice is made, the text-portion will change back to its own font.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">5. <A HREF="hs20010.htm"><I>WebWarrior Cascade</FONT></A><FONT FACE="Arial" COLOR="#800000" SIZE="2"></FONT></I><FONT FACE="Arial" COLOR="#800080" SIZE="2"> 1.0b1 and 1.0b2 Projects won't open in this version<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	Sorry. That's one of the risks of beta software. It would be too much of an overhead to maintain compatability with every beta version of software.<BR>
+	Rest assured, however, that we've finally developed a file format we can live with. It's designed for future enhancements in mind. Even if new features are added to later versions of <I>Cascade</I>, the application you are using now will still be able to use those advanced files! Of course, the converse is true, as well.<BR>
+	<I>Cascade</I> is also designed to allow integration of external tools. One of the first tools to be developed will be, in fact, a file converter so that <I>Balthisar Cascade</I> can open old </FONT><A HREF="hs20010.htm"><I><FONT FACE="Times New Roman" SIZE="2">WebWarrior Cascade</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT></I><FONT FACE="Times New Roman" SIZE="2"> projects.<BR>
+	TECH NOTE: merely changing the file extension to the new standard will not work. It's much more involved than that, so unless you want to crash <I>Cascade</I>, don't try to open your old documents.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">6. My exported data doesn't show up with .HTML or .CSS extensions.<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	This occurs because you web browser has registered those file extensions to themselves. On my system, for example, HTML files appear as "HTML File," and CSS files appear as "Hypertext Stylesheet." To correct the extensions "problem" (and we recommend that the serious HTML author turn on extensions for <I>all</I> internet file types), you can use the <B>View/Options</B> command from any shell window to choose exactly how the file type is displayed, and whether or not the extension is <I>always</I> displayed (even if "hide extensions for registered filetypes" is turned on). Just select the <B>File Types</B> tab, choose the type of file for which you would like to see the extension, and hit the <B>Edit</B> button. You should then see a window similiar to that below. Highlighted in the illustration is the check box you need to have checked to always see the extension.<BR>
+<CENTER></FONT><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></CENTER><BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">7. I selected a named HTML color in the color picker. It showed up okay in the spin editor and in the CSS code. But next time I activated the color picker for that spin editor, it showed the name of a different color!<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	This will happen only on occassions where the HTML standard has defined two names for the same color. Internally, <I>Cascade</I> keeps track of all colors by their RGB values, and looks up the name of the color in a table. Because a very few HTML named colors have the same RGB value with different names, <I>Cascade</I> will attempt to use the first name it comes across when looking up the color. This should only prove mildly irritating. Just go ahead and use the name <I>Cascade</I> gives you, because despite any difference in names, the colors really are exactly the same.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">8. I spent 40 minutes setting up 40 custom colors in the color picker, and they were really perfect! But next time I used the color picker, none of my colors were there! What a waste of time! </FONT><I><FONT FACE="Arial" SIZE="2">Or</FONT></I><FONT FACE="Arial" COLOR="#800080" SIZE="2"> I spent... adding HTML elements to the Element pick-list... </FONT><I><FONT FACE="Arial" SIZE="2">Or</FONT></I><FONT FACE="Arial" COLOR="#800080" SIZE="2"> I spent... adding new Pseudoclasses to the Pseudos pick-list...<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	You <I>do</I> know that the human interface guidelines from both Microsoft and Apple specify that if any dialogue box is cancelled, the changes made therein are to be disregarded. Therefore, be sure to exit the color picker by choosing <B>Okay</B>, and not <B>Cancel</B>. This same advice goes for adding items to the drop-down lists in the two pickers for Elements and Pseudoclasses.<BR>
+<BR>
+</FONT><B><FONT FACE="Arial" COLOR="#800080" SIZE="2">9. Your program is too large for my screen! Fix it!<BR>
+</FONT></B><FONT FACE="Times New Roman" SIZE="2">	<I>Balthisar Cascade</I> requires at least an 800x600 display properly, and the more colors the merrier. I honestly tried to accomodate the stragglers who have 640x480 displays at first, but the elements in the <I>Cascade</I> window are on the verge of being cramped as-is. If you're stuck with an old-fashioned, single-synch monitor that can do no better than 640x480, two things you can try are (1) Detach the Class List and the Code Preview Pane from the main window, and allow them to overlap, or (2) play with the Windows </FONT><A>UNCONVERTED WINHELP MACRO:! ControlPanel("desk.cpl","Display",3)<FONT FACE="Times New Roman" SIZE="2">Display Control Panel</FONT></A><FONT FACE="Times New Roman" COLOR="#800000" SIZE="2"></FONT><FONT FACE="Times New Roman" SIZE="2">, so that your desktop area is larger than the screen-size. This will only work if your video card has memory for the larger-size display.<BR>
+	In any event, at 640x480, <I>Cascade</I> is quite useable.
+</FONT>
+</BODY></HTML>

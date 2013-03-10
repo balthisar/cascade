@@ -1,0 +1,549 @@
+; Balthisar Cascade 2.0 Help
+; Copyright © 1998 by James S. Derry, All Rights Reserved
+
+; This help file was created with HelpScribble 5.5.2
+; Registered to: James S. Derry
+
+; HelpScribble is copyright (c) 1996-2000  Jan Goyvaerts
+; Visit http://www.jgsoft.com/ for more information
+
+
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=CascadeHelp.chm
+Contents file=CascadeHelp.hhc
+Title=Balthisar Cascade 2.0 Help
+Default topic=html\hs1.htm
+Display compile progress=No
+Index file=CascadeHelp.hhk
+Language=0x0409   English (U.S.)
+
+[FILES]
+html\hs1.htm
+html\hs100.htm
+html\hs1000.htm
+html\hs2000.htm
+html\hs2001.htm
+html\hs2050.htm
+html\hs2100.htm
+html\hs2200.htm
+html\hs2300.htm
+html\hs2400.htm
+html\hs2500.htm
+html\hs3000.htm
+html\hs3005.htm
+html\hs3010.htm
+html\hs3020.htm
+html\hs3030.htm
+html\hs3040.htm
+html\hs3050.htm
+html\hs3060.htm
+html\hs3070.htm
+html\hs3080.htm
+html\hs3090.htm
+html\hs4000.htm
+html\hs4005.htm
+html\hs4100.htm
+html\hs4150.htm
+html\hs4200.htm
+html\hs4225.htm
+html\hs4250.htm
+html\hs4251.htm
+html\hs4252.htm
+html\hs4253.htm
+html\hs4254.htm
+html\hs4256.htm
+html\hs4257.htm
+html\hs4258.htm
+html\hs4259.htm
+html\hs4260.htm
+html\hs4300.htm
+html\hs4350.htm
+html\hs4351.htm
+html\hs4352.htm
+html\hs4353.htm
+html\hs4354.htm
+html\hs4355.htm
+html\hs4400.htm
+html\hs4500.htm
+html\hs4600.htm
+html\hs4700.htm
+html\hs4710.htm
+html\hs4711.htm
+html\hs4712.htm
+html\hs4713.htm
+html\hs4714.htm
+html\hs4715.htm
+html\hs4716.htm
+html\hs4717.htm
+html\hs4718.htm
+html\hs4719.htm
+html\hs4720.htm
+html\hs4730.htm
+html\hs4731.htm
+html\hs4732.htm
+html\hs4733.htm
+html\hs4734.htm
+html\hs4735.htm
+html\hs4736.htm
+html\hs4740.htm
+html\hs4741.htm
+html\hs4742.htm
+html\hs4743.htm
+html\hs4750.htm
+html\hs4752.htm
+html\hs4753.htm
+html\hs4754.htm
+html\hs4755.htm
+html\hs4756.htm
+html\hs4757.htm
+html\hs4758.htm
+html\hs4759.htm
+html\hs4760.htm
+html\hs4770.htm
+html\hs4771.htm
+html\hs4772.htm
+html\hs4775.htm
+html\hs4790.htm
+html\hs4791.htm
+html\hs4792.htm
+html\hs4800.htm
+html\hs4900.htm
+html\hs4925.htm
+html\hs4926.htm
+html\hs4927.htm
+html\hs4928.htm
+html\hs4950.htm
+html\hs5000.htm
+html\hs5005.htm
+html\hs5100.htm
+html\hs5200.htm
+html\hs5300.htm
+html\hs5400.htm
+html\hs5500.htm
+html\hs5550.htm
+html\hs5600.htm
+html\hs5700.htm
+html\hs6000.htm
+html\hs6005.htm
+html\hs6100.htm
+html\hs6200.htm
+html\hs6300.htm
+html\hs6400.htm
+html\hs6500.htm
+html\hs6600.htm
+html\hs7000.htm
+html\hs10000.htm
+html\hs10005.htm
+html\hs10100.htm
+html\hs10105.htm
+html\hs10110.htm
+html\hs10120.htm
+html\hs10130.htm
+html\hs10140.htm
+html\hs10150.htm
+html\hs10160.htm
+html\hs10170.htm
+html\hs10180.htm
+html\hs10200.htm
+html\hs10205.htm
+html\hs10210.htm
+html\hs10220.htm
+html\hs10230.htm
+html\hs10240.htm
+html\hs10250.htm
+html\hs10260.htm
+html\hs10270.htm
+html\hs10280.htm
+html\hs10300.htm
+html\hs10305.htm
+html\hs10310.htm
+html\hs10320.htm
+html\hs10330.htm
+html\hs10340.htm
+html\hs10350.htm
+html\hs10400.htm
+html\hs10405.htm
+html\hs10410.htm
+html\hs10420.htm
+html\hs10430.htm
+html\hs10440.htm
+html\hs10450.htm
+html\hs10460.htm
+html\hs10470.htm
+html\hs10480.htm
+html\hs10500.htm
+html\hs10505.htm
+html\hs10510.htm
+html\hs10520.htm
+html\hs10530.htm
+html\hs10540.htm
+html\hs10600.htm
+html\hs10605.htm
+html\hs10610.htm
+html\hs10620.htm
+html\hs10630.htm
+html\hs10640.htm
+html\hs10650.htm
+html\hs10660.htm
+html\hs10700.htm
+html\hs10705.htm
+html\hs10710.htm
+html\hs10715.htm
+html\hs10720.htm
+html\hs10725.htm
+html\hs10730.htm
+html\hs10735.htm
+html\hs10740.htm
+html\hs10745.htm
+html\hs10750.htm
+html\hs10755.htm
+html\hs10760.htm
+html\hs10800.htm
+html\hs10805.htm
+html\hs10810.htm
+html\hs10820.htm
+html\hs10830.htm
+html\hs10840.htm
+html\hs10850.htm
+html\hs10860.htm
+html\hs10900.htm
+html\hs10905.htm
+html\hs10910.htm
+html\hs10920.htm
+html\hs10930.htm
+html\hs10940.htm
+html\hs10950.htm
+html\hs11000.htm
+html\hs11005.htm
+html\hs11010.htm
+html\hs11020.htm
+html\hs11030.htm
+html\hs11100.htm
+html\hs11105.htm
+html\hs11110.htm
+html\hs11120.htm
+html\hs11130.htm
+html\hs11140.htm
+html\hs11150.htm
+html\hs11160.htm
+html\hs11170.htm
+html\hs11180.htm
+html\hs11200.htm
+html\hs11205.htm
+html\hs11210.htm
+html\hs11220.htm
+html\hs11300.htm
+html\hs11305.htm
+html\hs11310.htm
+html\hs11320.htm
+html\hs11330.htm
+html\hs11340.htm
+html\hs11350.htm
+html\hs11360.htm
+html\hs11370.htm
+html\hs11400.htm
+html\hs11405.htm
+html\hs11410.htm
+html\hs11415.htm
+html\hs11420.htm
+html\hs11425.htm
+html\hs11430.htm
+html\hs11435.htm
+html\hs11440.htm
+html\hs11445.htm
+html\hs11450.htm
+html\hs11455.htm
+html\hs20000.htm
+html\hs20010.htm
+html\hs20020.htm
+html\hs20021.htm
+html\hs20030.htm
+html\hs20031.htm
+html\hs20032.htm
+html\hs20033.htm
+html\hs20034.htm
+html\hs20035.htm
+html\hs20036.htm
+html\hs20037.htm
+html\hs20038.htm
+html\hs20040.htm
+html\hs20045.htm
+html\hs20046.htm
+html\hs20100.htm
+html\hs25000.htm
+html\hs25010.htm
+html\hs25015.htm
+html\hs25020.htm
+html\hs25025.htm
+html\hs25030.htm
+html\hs25035.htm
+html\hs25040.htm
+html\hs25045.htm
+html\hs25050.htm
+html\hs25055.htm
+
+[MAP]
+#define html\hs1 1
+#define html\hs100 100
+#define html\hs1000 1000
+#define html\hs2000 2000
+#define html\hs2001 2001
+#define html\hs2050 2050
+#define html\hs2100 2100
+#define html\hs2200 2200
+#define html\hs2300 2300
+#define html\hs2400 2400
+#define html\hs2500 2500
+#define html\hs3000 3000
+#define html\hs3005 3005
+#define html\hs3010 3010
+#define html\hs3020 3020
+#define html\hs3030 3030
+#define html\hs3040 3040
+#define html\hs3050 3050
+#define html\hs3060 3060
+#define html\hs3070 3070
+#define html\hs3080 3080
+#define html\hs3090 3090
+#define html\hs4000 4000
+#define html\hs4005 4005
+#define html\hs4100 4100
+#define html\hs4150 4150
+#define html\hs4200 4200
+#define html\hs4225 4225
+#define html\hs4250 4250
+#define html\hs4251 4251
+#define html\hs4252 4252
+#define html\hs4253 4253
+#define html\hs4254 4254
+#define html\hs4256 4256
+#define html\hs4257 4257
+#define html\hs4258 4258
+#define html\hs4259 4259
+#define html\hs4260 4260
+#define html\hs4300 4300
+#define html\hs4350 4350
+#define html\hs4351 4351
+#define html\hs4352 4352
+#define html\hs4353 4353
+#define html\hs4354 4354
+#define html\hs4355 4355
+#define html\hs4400 4400
+#define html\hs4500 4500
+#define html\hs4600 4600
+#define html\hs4700 4700
+#define html\hs4710 4710
+#define html\hs4711 4711
+#define html\hs4712 4712
+#define html\hs4713 4713
+#define html\hs4714 4714
+#define html\hs4715 4715
+#define html\hs4716 4716
+#define html\hs4717 4717
+#define html\hs4718 4718
+#define html\hs4719 4719
+#define html\hs4720 4720
+#define html\hs4730 4730
+#define html\hs4731 4731
+#define html\hs4732 4732
+#define html\hs4733 4733
+#define html\hs4734 4734
+#define html\hs4735 4735
+#define html\hs4736 4736
+#define html\hs4740 4740
+#define html\hs4741 4741
+#define html\hs4742 4742
+#define html\hs4743 4743
+#define html\hs4750 4750
+#define html\hs4752 4752
+#define html\hs4753 4753
+#define html\hs4754 4754
+#define html\hs4755 4755
+#define html\hs4756 4756
+#define html\hs4757 4757
+#define html\hs4758 4758
+#define html\hs4759 4759
+#define html\hs4760 4760
+#define html\hs4770 4770
+#define html\hs4771 4771
+#define html\hs4772 4772
+#define html\hs4775 4775
+#define html\hs4790 4790
+#define html\hs4791 4791
+#define html\hs4792 4792
+#define html\hs4800 4800
+#define html\hs4900 4900
+#define html\hs4925 4925
+#define html\hs4926 4926
+#define html\hs4927 4927
+#define html\hs4928 4928
+#define html\hs4950 4950
+#define html\hs5000 5000
+#define html\hs5005 5005
+#define html\hs5100 5100
+#define html\hs5200 5200
+#define html\hs5300 5300
+#define html\hs5400 5400
+#define html\hs5500 5500
+#define html\hs5550 5550
+#define html\hs5600 5600
+#define html\hs5700 5700
+#define html\hs6000 6000
+#define html\hs6005 6005
+#define html\hs6100 6100
+#define html\hs6200 6200
+#define html\hs6300 6300
+#define html\hs6400 6400
+#define html\hs6500 6500
+#define html\hs6600 6600
+#define html\hs7000 7000
+#define html\hs10000 10000
+#define html\hs10005 10005
+#define html\hs10100 10100
+#define html\hs10105 10105
+#define html\hs10110 10110
+#define html\hs10120 10120
+#define html\hs10130 10130
+#define html\hs10140 10140
+#define html\hs10150 10150
+#define html\hs10160 10160
+#define html\hs10170 10170
+#define html\hs10180 10180
+#define html\hs10200 10200
+#define html\hs10205 10205
+#define html\hs10210 10210
+#define html\hs10220 10220
+#define html\hs10230 10230
+#define html\hs10240 10240
+#define html\hs10250 10250
+#define html\hs10260 10260
+#define html\hs10270 10270
+#define html\hs10280 10280
+#define html\hs10300 10300
+#define html\hs10305 10305
+#define html\hs10310 10310
+#define html\hs10320 10320
+#define html\hs10330 10330
+#define html\hs10340 10340
+#define html\hs10350 10350
+#define html\hs10400 10400
+#define html\hs10405 10405
+#define html\hs10410 10410
+#define html\hs10420 10420
+#define html\hs10430 10430
+#define html\hs10440 10440
+#define html\hs10450 10450
+#define html\hs10460 10460
+#define html\hs10470 10470
+#define html\hs10480 10480
+#define html\hs10500 10500
+#define html\hs10505 10505
+#define html\hs10510 10510
+#define html\hs10520 10520
+#define html\hs10530 10530
+#define html\hs10540 10540
+#define html\hs10600 10600
+#define html\hs10605 10605
+#define html\hs10610 10610
+#define html\hs10620 10620
+#define html\hs10630 10630
+#define html\hs10640 10640
+#define html\hs10650 10650
+#define html\hs10660 10660
+#define html\hs10700 10700
+#define html\hs10705 10705
+#define html\hs10710 10710
+#define html\hs10715 10715
+#define html\hs10720 10720
+#define html\hs10725 10725
+#define html\hs10730 10730
+#define html\hs10735 10735
+#define html\hs10740 10740
+#define html\hs10745 10745
+#define html\hs10750 10750
+#define html\hs10755 10755
+#define html\hs10760 10760
+#define html\hs10800 10800
+#define html\hs10805 10805
+#define html\hs10810 10810
+#define html\hs10820 10820
+#define html\hs10830 10830
+#define html\hs10840 10840
+#define html\hs10850 10850
+#define html\hs10860 10860
+#define html\hs10900 10900
+#define html\hs10905 10905
+#define html\hs10910 10910
+#define html\hs10920 10920
+#define html\hs10930 10930
+#define html\hs10940 10940
+#define html\hs10950 10950
+#define html\hs11000 11000
+#define html\hs11005 11005
+#define html\hs11010 11010
+#define html\hs11020 11020
+#define html\hs11030 11030
+#define html\hs11100 11100
+#define html\hs11105 11105
+#define html\hs11110 11110
+#define html\hs11120 11120
+#define html\hs11130 11130
+#define html\hs11140 11140
+#define html\hs11150 11150
+#define html\hs11160 11160
+#define html\hs11170 11170
+#define html\hs11180 11180
+#define html\hs11200 11200
+#define html\hs11205 11205
+#define html\hs11210 11210
+#define html\hs11220 11220
+#define html\hs11300 11300
+#define html\hs11305 11305
+#define html\hs11310 11310
+#define html\hs11320 11320
+#define html\hs11330 11330
+#define html\hs11340 11340
+#define html\hs11350 11350
+#define html\hs11360 11360
+#define html\hs11370 11370
+#define html\hs11400 11400
+#define html\hs11405 11405
+#define html\hs11410 11410
+#define html\hs11415 11415
+#define html\hs11420 11420
+#define html\hs11425 11425
+#define html\hs11430 11430
+#define html\hs11435 11435
+#define html\hs11440 11440
+#define html\hs11445 11445
+#define html\hs11450 11450
+#define html\hs11455 11455
+#define html\hs20000 20000
+#define html\hs20010 20010
+#define html\hs20020 20020
+#define html\hs20021 20021
+#define html\hs20030 20030
+#define html\hs20031 20031
+#define html\hs20032 20032
+#define html\hs20033 20033
+#define html\hs20034 20034
+#define html\hs20035 20035
+#define html\hs20036 20036
+#define html\hs20037 20037
+#define html\hs20038 20038
+#define html\hs20040 20040
+#define html\hs20045 20045
+#define html\hs20046 20046
+#define html\hs20100 20100
+#define html\hs25000 25000
+#define html\hs25010 25010
+#define html\hs25015 25015
+#define html\hs25020 25020
+#define html\hs25025 25025
+#define html\hs25030 25030
+#define html\hs25035 25035
+#define html\hs25040 25040
+#define html\hs25045 25045
+#define html\hs25050 25050
+#define html\hs25055 25055
